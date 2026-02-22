@@ -72,12 +72,13 @@
         </div>
 
         <div class="max-w-[1200px] m-auto">
-            <h3 class="text-4xl font-bold mt-[150px] text-white">Заголовок H1 Font Inter 60px</h3>
-            <p class="text-[18px] text-white mt-[50px]">Хлебные крошки</p>
-            <p class="text-[18px] text-[#AEAEAE]">Главная Главная Главная</p>
-            <div class="flex justify-between mt-[50px]">
+            <h3 class="text-4xl font-bold mt-[150px] text-white  lg:text-start text-center">Заголовок H1 Font Inter 60px
+            </h3>
+            <p class="text-[18px] text-white mt-[50px]  lg:text-start text-center">Хлебные крошки</p>
+            <p class="text-[18px] text-[#AEAEAE]  lg:text-start text-center">Главная Главная Главная</p>
+            <div class="flex justify-between mt-[50px] lg:flex-row flex-col">
                 <div
-                    class="lg:w-[40%] w-[90%] m-auto lg:m-0 py-[15px] px-[20px] rounded-[20px] bg-[#1E1E1E] shadow-[0_7px_24px_0_#00000099]">
+                    class="lg:w-[40%] w-[90%] m-auto lg:m-0 py-[15px] px-[20px] rounded-[20px] bg-[#1E1E1E] shadow-[0_7px_24px_0_#00000099] lg:mb-[0] mb-[50px]">
                     <h3 class="text-4xl text-[#9B6D44] font-bold">Заполните поля</h3>
                     <input type="text" placeholder="Имя"
                         class="w-[400px] h-[50px] border-2 border-white rounded-[100px] p-[20px] text-white mt-[15px] block m-auto">
@@ -99,14 +100,200 @@
                         class="w-[400px] h-[50px] border-2 border-white rounded-[100px] p-[20px] text-white mt-[15px] block m-auto">
                     <input type="password" placeholder="Пароль"
                         class="w-[400px] h-[50px] border-2 border-white rounded-[100px] p-[20px] text-white mt-[15px] block m-auto">
-                   <button class="block m-auto text-[#9B6D44] underline mt-[50px]">Восстановить пароль</button>
+                    <button class="block m-auto text-[#9B6D44] underline mt-[50px]">Восстановить пароль</button>
                     <button
                         class="block m-auto p-[15px] mt-[50px] bg-[#9B6D44] w-[90%] rounded-[100px] text-white">Отправить</button>
                 </div>
             </div>
         </div>
 
+        <div class="max-w-[1200px] m-auto">
+            <div class="mt-[100px] flex lg:flex-row flex-col justify-between mb-[100px]">
+                <div>
+                    <p class="text-white text-2xl mb-5 lg:text-start text-center">элементы чекбоксов, радио <br>
+                        кнопок, выбор из списка</p>
+                    <div class="flex gap-[10px] text-white mb-3">
+                        <input type="checkbox">
+                        <p>Соглашаюсь на обратку персональных данных</p>
+                    </div>
+                    <div class="flex gap-[10px] text-white lg:mb-0 mb-[50px]">
+                        <input type="checkbox">
+                        <p>Соглашаюсь на обратку персональных данных</p>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <button
+                        class="py-[15px] px-[120px] bg-[#9B6D44] rounded-[100px] text-white lg:w-[100%] w-[80%] lg:m-0 m-auto lg:mb-[20px] mb-[20px]">Отправить</button>
+                    <button
+                        class="py-[15px] px-[120px] bg-[#55371D] rounded-[100px] text-white lg:w-[100%] w-[80%] lg:m-0 m-auto">Отмена</button>
+                </div>
+            </div>
+
+            <p class="ml-[150px] text-white">Активная <br>
+                Радио-кнопка</p>
+            <div class="flex gap-25">
+                <div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                    <div class="flex text-[18px] text-white gap-5">
+                        <input type="radio" name="rad" id="">
+                        <p>Радио-кнопка 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <article>
+        <div class="max-w-[1200px] m-auto">
+            <p class="mb-[20px] text-[20px] mt-[20px] text-white">выбор из списка</p>
+            <div class="flex lg:gap-5 gap-[10px]">
+                <select name="" id="" class="border-2 p-[10px] lg:px-[30px] px-[15px] border-white text-white">
+                    <option value="">Lorem ipsun</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                </select>
+                <select name="" id="" class="border-2 p-[10px] lg:px-[30px] px-[15px] border-white text-white">
+                    <option value="">Lorem ipsun</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                    <option value="">Lorem ipsun, dolor smit</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="max-w-[1200px] m-auto mt-[100px] flex lg:flex-row flex-col gap-50">
+            <div class="text-white">
+                <h3 class="mb-[20px]">неупорядоченный</h3>
+                <p>● Lorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smitLorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smitLorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smit</p>
+                <p>● Lorem ipsun, dolor smit</p>
+            </div>
+            <div class="text-white">
+                <h3 class="mb-[20px]">упорядоченный</h3>
+                <p>1. Lorem ipsun, dolor smit</p>
+                <p class="ml-[30px]">● Lorem ipsun, dolor smit</p>
+                <p class="ml-[30px]">● Lorem ipsun, dolor smit</p>
+                <p class="ml-[30px]">● Lorem ipsun, dolor smit</p>
+                <div class="mt-[20px]">
+                    <p>2. Lorem ipsun, dolor smit</p>
+                    <p class="ml-[30px]">● Lorem ipsun, dolor smit</p>
+                    <p class="ml-[30px]">● Lorem ipsun, dolor smit</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="max-w-[1200px] m-auto lg:block hidden">
+            <h3 class="mb-[20px] text-white text-2xl mt-[100px]">Блок цитаты blockquote</h3>
+            <div class="w-[90%] p-[20px] bg-[#55371D66]">
+                <div class="flex items-start gap-5">
+                    <img src="./img.png/“.png" alt="">
+                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <p class="pl-[50px] text-white font-bold pt-[10px]">Lorem Ipsum</p>
+            </div>
+        </div>
+
+
+        <div class="bg-2 mt-[100px]">
+            <div class="max-w-[1200px] m-auto">
+                <div class="lg:w-[30%] w-[80%] p-[20px] bg-[#00000099] rounded-[20px]  border-1 border-white relative top-30">
+                    <h2 class="text-5xl font-bold text-white">Адреса</h2>
+                    <p class="mt-[20px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </article>
+
+    <footer class="bg-black py-[50px]">
+        <div class="max-w-[1200px] m-auto flex 
+                lg:flex-row flex-col 
+                justify-between items-start 
+                text-white gap-[40px]">
+
+            <div>
+                <img src="./img.png/Refreshoes_LOGO копия 1.png" alt="logo" class="mb-[15px]">
+                <p class="text-[#AEAEAE] max-w-[250px]">
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                </p>
+            </div>
+
+            <div>
+                <p class="text-[#AEAEAE] mb-[15px] max-w-[250px]">
+                    Lorem Ipsum is simply dummy text of the printing and
+                </p>
+
+                <div class="flex items-center gap-[10px] 
+                        bg-white text-black 
+                        px-[20px] py-[8px] 
+                        rounded-[30px] w-fit">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text-[14px]">
+                        +7 (999) 999-09-99
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[10px] text-[#AEAEAE]">
+                <p>Главная</p>
+                <p>Контентная страница</p>
+                <p>Галерея</p>
+                <p>Видео галерея</p>
+                <p>Фото галерея</p>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
